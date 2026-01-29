@@ -100,13 +100,17 @@ Error keyword mappings
 Save outputs: Place files in /mnt/user-data/outputs/ for user access.
 
 Quick Start Examples
-Example 1: Scan a repository
+
+**Example 1**: Scan a repository
 User: "Analyze this Rancher repository and tell me what each component does"
 Claude: [Runs phases 1-3, generates markdown report]
-Example 2: Map an error
+
+**Example 2**: Map an error
 User: "I'm getting 'auth service connection refused' - which components should I check?"
 Claude: [Runs phase 4, suggests auth-service, API gateway, and related config files]
-Example 3: Understand triggers
+
+
+**Example 3:** Understand triggers
 User: "When does the backup-manager component run?"
 Claude: [Analyzes component, finds cron schedule, event handlers, or API triggers]
 Bundled Resources
